@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <img src="https://www.pngitem.com/pimgs/m/238-2384334_my-portfolio-cover-design-hd-png-download.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-window-close" aria-hidden="true" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+                <h1>Hi, I'm <span>Mohamed</span><br> Nihmathullah<i class="fa fa-heartbeat" aria-hidden="true" style="color: #ff004f;"></i></h1>
+                <p style="color: deeppink;">And I'm a FullStack Developer</p>
+            </div>
+        </div>
+    </div>
+
+<!---------------------------------about------------------------------------->
+   
+<div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\rsz_nihmath.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Motivated MCA graduate proficient in Python and Java. Strong problem-solving and communication skills. Seeking entry-level opportunities to contribute innovative solutions to team projects.
+                    </p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('certifications')">Certifications</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                     </div>
+
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical Skills</span><li>Java</li><li>Python</li><li>Html / CSS</li><li>JavaScript</li><li>Bootstrap</li></li>
+                            
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>FullStack Development</span><br>GUVI Geeks Network Pvt.Ltd</li>
+                            <li><span>Python Certification</span><br>GUVI Geeks Network Pvt.Ltd</li>
+                            <li><span>Programming in Java</span><br>SYPA IIE - Computer Technology.</li>
+                            <li><span>AI For India 2.0</span><br>GUVI Through Skill India Digital.</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Master of Computer Applications - 8.41 CGPA</span><br>SRM Institute of Science And Technology<br>2021 - 2023</li>
+                            <li><span>B.SC Computer SCience - 7.86 CGPA</span><br>Sadakathullah Appa College<br>2018 -2021</li>
+                            <li><span>HSC - 62%</span><br> Don Bosco Matric.Hr.Sec. School<br>2017 - 2018</li>
+                            <li><span>SSLC - 80.8%</span><br> Don Bosco Matric.Hr.Sec. School<br>2015 - 2016</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------Services------------------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div> 
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                  <h2>Web Development</h2>
+                  <p>Crafting web solutions is my craft. With mastery in code, I bring your ideas to life—seamless, robust, and efficient. Let's turn your vision into a standout web reality!</p>
+                   
+              </div>
+                <div> 
+                    <i class="fa fa-crop" aria-hidden="true"></i>
+                  <h2>UI/UX Design</h2>
+                  <p>I create beautiful and intuitive digital experiences, bringing ideas to life through wireframes, prototypes, and stunning designs. Let's elevate your user experience together!</p>
+                  
+              </div>
+                <div> 
+                    <i class="fa fa-apple" aria-hidden="true"></i>
+                  <h2>App Design</h2>
+                  <p>Crafting sleek and intuitive app designs. From wireframes to pixel-perfect interfaces, let's bring your app vision to life!</p>
+                   
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------Projects--------------------------------------->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://viso.ai/wp-content/uploads/2022/04/sheep-detection-computer-vision-1060x795.png">
+                    <div class="layer">
+                        <h3>Animal Beat Back System</h3>
+                        <p>Created an AI-driven system safeguarding crops from wildlife by employing cameras for animal detection, utilizing smart ML algorithms for species identification, and implementing safe ultrasound to repel animals and ensure crop protection.</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://zenklub.com.br/blog/wp-content/uploads/2023/01/iStock-1369689362-1.jpg">
+                    <div class="layer">
+                        <h3>Cyber Bullying</h3>
+                        <p>Built an advanced real-time bullying detection model for social media using Java/J2EE and NetBeans. Implemented cutting-edge text representation techniques for accurate identification with a focus on scalability.
+                        </p>
+                       
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://wallpapers.com/images/hd/colorful-butterfly-pictures-7qz91gf9o78eh4s0.jpg">
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>Created a dynamic portfolio website with HTML, CSS, and JavaScript for showcasing skills and projects. The site features a clean, user-friendly interface with enhanced interactivity.</p>  
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!----------------------------------------------------Contact--------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i>
+                        mohamednihmath13@gmail.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>
+                        8124858417</p>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Tirunelveli, TamilNadu - India</p>
+                   
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/nihmath_03/"><i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohamed-nihmathullah-bb111322b/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+                            </a>
+                            <a href="https://github.com/MohamedNihmath18"><i class="fa fa-github-square" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://leetcode.com/Mohamed_Nihmathullah/"><i class="fa fa-code" aria-hidden="true"></i>
+                            </a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1v6q3VyZTk8qc6kJkbHs6O7FW3MiKaX_H/view?usp=drive_link" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>  
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Nihmath💕&copy; 2023 All Rights Are Reserved</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
